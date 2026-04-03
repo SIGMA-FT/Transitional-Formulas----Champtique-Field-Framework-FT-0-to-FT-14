@@ -1,0 +1,254 @@
+# =========================================
+# PCH_METADATA.yaml
+# IA-First Structural Descriptor — v5.0
+# CMRPCh — Transitional Formulas
+# Deposit 5 — extends v4.0
+# =========================================
+
+framework:
+  name: "Physique Champtique (Pch)"
+  repository: "CMRPCh"
+  deposit: 5
+  deposit_name: "Transitional Formulas — Champtique Field Framework FT-0 to FT-14"
+  doi: "10.5281/zenodo.19392808"
+  deposit_1_doi: "10.5281/zenodo.19054806"
+  deposit_2_doi: "10.5281/zenodo.19109701"
+  deposit_3_doi: "10.5281/zenodo.19135745"
+  deposit_4_doi: "10.5281/zenodo.19356145"
+  type: "formal_framework"
+  status: "descriptive_framework"
+  ontological_claim: false
+  replaces_existing_theories: false
+  modifies_SI_units: false
+
+foundational_postulates:
+  P1:
+    statement: "The field is the fundamental reality — matter and energy are states of Φ"
+    priority: "above all FTs"
+  P2:
+    statement: "Field plasticity — Φ reconfigures between states under observable conditions"
+    priority: "above all FTs"
+  P3:
+    statement: "No opposing charges — high-density and low-density are states of a single continuum"
+    priority: "above all FTs"
+    historical_note: "1785 bifurcation — Franklin model restored"
+
+formulas_index:
+
+  module_01_core:
+    FT_0:
+      expression: "Φ(x)"
+      role: "Primitive field — all structure derives from field state"
+      status: "ACQUIRED"
+      parameters: "Φ: single universal field"
+      observable_grounding: "All documented experiments — field is the common substrate"
+      falsification: "Any phenomenon requiring a substrate other than Φ"
+      links: []
+
+    FT_1:
+      expression: "Φ = Φc + Φd"
+      role: "Foundational decomposition — condensed and diffuse states"
+      status: "ACQUIRED"
+      parameters:
+        Phi_c: "condensed field — localized, stable, substrate of matter"
+        Phi_d: "diffuse field — extended, penetrating, carrier of memory and information"
+      note: "Condensed and diffuse are not opposites — two states of one continuum"
+      observable_grounding: "EXP-001 to EXP-013, PH-001 to PH-062"
+      falsification: "Any phenomenon requiring a third irreducible field component"
+      links: ["Deposit1", "Deposit2", "Deposit3", "Deposit4"]
+
+    FT_2:
+      expression: "ρ = ρ(Φ), κ = κ(Φ), κ ∈ [0,1["
+      role: "Local density and coherence — organization degree of the field"
+      status: "ACQUIRED"
+      parameters:
+        rho: "effective field density"
+        kappa: "local coherence / field organization degree"
+      critical_correction: "κ = 1 (perfect coherence) is never reached locally — asymptotic global limit only"
+      enrichment: "Φd absorption hierarchy: water > living matter > air > vacuum"
+      observable_grounding: "EXP-006 (water/cotton), EXP-007 (constraint), OBS-006 (surface states)"
+      falsification: "κ = 1 reached and measured locally"
+      links: ["EXP-006", "EXP-007", "OBS-006"]
+
+    FT_3:
+      expression: "O ∝ ∇Φ"
+      role: "Observable as field gradient — force, charge, tension are gradient structures"
+      status: "ACQUIRED"
+      parameters:
+        O: "any measurable observable"
+        nabla_Phi: "spatial field gradient"
+      note: "Observed quantities correspond to spatial field variations — not independent entities"
+      observable_grounding: "All experiments — gradient is the universal observable"
+      falsification: "A documented observable that is not reducible to a field gradient"
+      links: ["Deposit1", "Deposit2"]
+
+    FT_5:
+      expression: "J = −∂tΦ"
+      role: "Flux without material transport — field variation as flux"
+      status: "ACQUIRED"
+      parameters:
+        J: "champtique flux"
+        partial_t_Phi: "temporal field variation"
+      note: "Flux does not require material transport — EXP-003 (split tube) is the direct demonstration"
+      observable_grounding: "EXP-003 (split tube — field plasticity over eddy currents)"
+      falsification: "Flux demonstrated to require material transport in all cases"
+      links: ["EXP-003"]
+
+    FT_6:
+      expression: "∂tρ + ∇·J = S − R"
+      role: "Redistribution, not dissipation — total field is conserved"
+      status: "ACQUIRED"
+      parameters:
+        S: "source (local organization, densification)"
+        R: "redistribution outside observation perimeter"
+      critical_correction: "R ≠ dissipation — what PC calls 'loss' is redistribution outside the observed system"
+      note: "Growing entropy of classical thermodynamics is an observer artifact — perimeter limit, not fundamental property"
+      observable_grounding: "PH-046 (entropy refuted by Mpemba), EXP-005 to EXP-009"
+      falsification: "Irreversible total field destruction demonstrated experimentally"
+      links: ["PH-046", "PH-001"]
+
+    FT_8:
+      expression: "∂tm = (1/τm(κ)) · (H(Φ,ρ,κ) − m), τm = f(κ)"
+      role: "Field memory — coherent information persists, incoherent dissolves"
+      status: "ACQUIRED"
+      parameters:
+        m: "field memory state"
+        tau_m: "memory time — depends on κ"
+        H: "memory target function"
+      critical_correction: "τm is κ-dependent, not constant — earlier constant version introduced spurious dissipation"
+      regime_high_kappa: "κ high → τm → ∞ : permanent memory"
+      regime_low_kappa: "κ low → τm finite : progressive dissolution"
+      prototypical_form: "τm(κ) = τ₀ · exp(λ · κ)  [A_FORMALISER — constants to be extracted]"
+      observable_grounding: "OBS-007 (zebra migration), EXP-002 (Lewin capacitor), OBS-005 (longevity in dense media)"
+      falsification: "Memory shown to be κ-independent"
+      links: ["OBS-007", "EXP-002", "OBS-005"]
+
+    FT_10:
+      expression: "Matter: local (Φc). Information: non-local (Φd)"
+      role: "Structural non-locality — Φd precedes Φc systematically"
+      status: "ACQUIRED"
+      note: "Locality is a consequence of stabilization — not a fundamental property of reality"
+      discriminating_value: "Highest discriminating value of the corpus — key differential from standard framework"
+      observable_grounding: "EXP-002 (capacitor — field maintained in relation, not stored in matter), OBS-007 (zebras), PH-054 (morphic resonance)"
+      falsification: "Φd demonstrated to follow Φc in all documented cases"
+      links: ["EXP-002", "OBS-007"]
+
+    FT_11:
+      expression: "dτ = Θ(ρ,κ,m) · dt"
+      role: "Local variable time cadence — time emerges from dense coherent field"
+      status: "ACQUIRED"
+      parameters:
+        dtau: "local proper time"
+        Theta: "geometric-champtique factor"
+        dt: "coordinate time"
+      regimes:
+        diffuse: "Θ → 0 → time unmeasurable"
+        dense_coherent: "Θ > 0 → emergent time"
+      prototypical_form: "Θ(ρ,κ,m) = α · ρ^β · κ^γ  [A_FORMALISER — constants to be extracted]"
+      observable_grounding: "PH-037 (GPS corrections to 10⁻¹⁴), OBS-005 (longevity in dense media), OBS-038"
+      falsification: "Time shown to be independent of local field state"
+      links: ["PH-037", "OBS-005"]
+
+    FT_13:
+      expression: "Measure: Φd → Φc"
+      role: "Measurement as local condensation — instrument converts diffuse to structured"
+      status: "ACQUIRED"
+      note: "What is not measured is not absent — measurement captures one aspect of field reality"
+      observable_grounding: "EXP-002 (Lewin dismantled capacitor — direct demonstration)"
+      falsification: "Measurement demonstrated to not alter field state in any case"
+      links: ["EXP-002"]
+
+    FT_14:
+      expression: "ΔΦ = Φ₁ − Φ₂"
+      role: "Champtique differential as universal driver"
+      status: "ACQUIRED"
+      parameters:
+        DeltaPhi: "field differential between two zones or systems"
+      regimes:
+        high: "ΔΦ high → fast onset, strong effect (copper/ice, explosion, shock)"
+        low: "ΔΦ low → slow onset, progressive effect"
+        zero: "ΔΦ → 0 → return to continuum, phenomenon terminated"
+      note: "FT-3 (O = ∇Φ) captures local spatial variation. FT-14 captures differential between two distinct systems — not the same."
+      observable_grounding: "PH-001 (Mpemba), EXP-005 (copper/ice), PH-004 (water/oil), PH-039 (gravity), all interface phenomena"
+      falsification: "A phase transition or interface phenomenon shown to be independent of ΔΦ"
+      links: ["PH-001", "EXP-005", "PH-039"]
+
+  module_02_open:
+    FT_4:
+      expression: "Response = R(Φ, ∇Φ, ∂tΦ, ρ, κ, m)"
+      role: "Functional response principle — nothing is isolable from surrounding field"
+      status: "A_DISC"
+      note: "Conceptual compass, not a calculatory equation — R factorization undetermined"
+      open_zone: "Which parameters dominate in which regime? How does R factorize?"
+      observable_candidate: "PH-005 (mayonnaise) — same stimulus, opposed results depending on prior κ state"
+      falsification: "A response shown to be fully determined by a single parameter"
+      links: ["PH-005"]
+
+    FT_7:
+      expression: "∂tΦ = D∇²Φ − Γ(Φ,ρ,κ,m) + Σ"
+      role: "Generic field evolution — diffusion, return to local continuum, external coupling"
+      status: "A_DISC"
+      parameters:
+        D: "field plasticity / diffusion"
+        Gamma: "return toward local champtique continuum"
+        Sigma: "external excitation or coupling (incoming champtique differential)"
+      critical_correction: "Γ is NOT return toward fixed thermodynamic equilibrium — return toward evolving local continuum"
+      open_zone: "Functional form of Γ — linear? exponential? κ-dependent as τm?"
+      experimental_path: "OBS-008 (copper bars + magnet) — return velocity measurable — rhéomètre champtique forthcoming"
+      schwarz_link: "Schwarz minimal surfaces (H=0) as quasi-stationary solutions of FT-7 (OBS-050)"
+      falsification: "Γ shown to be a return toward fixed equilibrium"
+      links: ["OBS-008", "OBS-050"]
+
+    FT_9:
+      expression: "M ≡ C(Φc, ρ, κ, m)"
+      role: "Matter as stabilized condensed field — slow local field memory"
+      status: "A_DISC"
+      note: "C is not yet formalized — open zone toward FT-15/16 (constants as regime-dependent projections)"
+      open_zone: "How do Φc, ρ, κ, m combine to produce observable material properties?"
+      observable_candidate: "Same metal annealed vs tempered — same mass and composition, different κ and m → different champtique behavior"
+      falsification: "Two materials with identical Φc, ρ, κ, m shown to have different properties"
+      links: ["OBS-006", "OBS-009"]
+
+  module_03_operational:
+    FT_12:
+      expression: "dτ = Θ(ρ,κ,m) · √(1 − v²/c²) · dt"
+      role: "Relativistic extension — kinematic compatibility"
+      status: "A_EXP"
+      note: "c is NOT a universal constant in Pch — it is the limit velocity at condensed/diffuse interface under current terrestrial regime conditions"
+      operational_validity: "Compatible with GPS corrections to 10⁻¹⁴ — operationally valid in Phase 1"
+      not_fundamental: "FT-12 is a regime approximation — not an ontological law"
+      approximation_condition: "Valid where local field state approximates terrestrial regime"
+      observable_candidate: "PH-059 (guided laser on calm water) — indirect evidence of local c variation with κ"
+      links: ["PH-037", "PH-059"]
+
+  module_04_forthcoming:
+    proto_Theta:
+      expression: "Θ(ρ,κ,m) = α · ρ^β · κ^γ"
+      status: "A_FORMALISER"
+      note: "Proposed functional form — constants α, β, γ to be extracted by inter-AI program"
+      consistency: "Coherent with orbital data and Mpemba effect — form is reasonable"
+
+    proto_tau_m:
+      expression: "τm(κ) = τ₀ · exp(λ · κ)"
+      status: "A_FORMALISER"
+      note: "Exponential form — simple and structurally consistent with FT-8 regimes"
+      constants: "τ₀, λ to be extracted by inter-AI program"
+
+    FT_15_candidate:
+      expression: "TBD — absorption hierarchy and κ propagation"
+      status: "HYP"
+      note: "Hierarchical κ absorption — favors Schwarz emergence in high-κ tissues"
+      links: ["OBS-050"]
+
+inter_ai_constants_program:
+  status: "announced"
+  objective: "Numerical extraction of Pch constants from documented observables"
+  target_constants: ["α", "β", "γ (Θ form)", "τ₀", "λ (τm form)"]
+  method: "Structured cross-AI analysis of quantified experimental data"
+  data_sources: ["OBS-008 quantified measurements", "PH-037 GPS corrections", "forthcoming rhéomètre champtique"]
+
+ethical_mark:
+  brillenbar: true
+  charter: "Cooperation, Synergie, Non-appropriation, Transparence, Réversibilité"
+  license: "CC BY-SA 4.0"
+  prior_art: true
